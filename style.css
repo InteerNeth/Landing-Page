@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    height: 100%;
     font-family: 'Patua One', cursive;
 }
 ul {
@@ -18,10 +18,11 @@ ul {
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
+    gap: 350px;
 }
 .header img{
-    height: 130px;
-    width: 130px;
+    height: 160px;
+    width: 160px;
 }
 .header p{
     font-weight: bold;
@@ -41,7 +42,6 @@ ul {
     align-content: center;
 }
 .text #header {
-    display: flex;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -101,6 +101,7 @@ ul {
 .information-box img {
     height: 200px;
     width: 200px;
+    display: block;
 }
 .img-box {
     border: #3882F6 8px solid;
@@ -132,5 +133,54 @@ ul {
     justify-content: right;
     align-items: right;
 }
-
-
+.modal {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.modal-container {
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 6px;
+    padding: 50px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    color: #e5e7eb;
+    
+}
+.modal-text #bold {
+    font-size: 24px;
+    font-weight: 900;
+}
+.modal-text p {
+    margin: 0;
+}
+.modal-container #signup {
+    display: flex;
+    justify-content: center;
+    align-content: left;
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid;
+}
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 24px;
+}
